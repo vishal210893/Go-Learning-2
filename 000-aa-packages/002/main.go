@@ -6,6 +6,7 @@ import (
 )
 
 func main() {
-	fmt.Println("from 002")
+	i, _ := 3, 4
+	fmt.Println("from 002", i)
 	mypackage.PrintHello()
 }
